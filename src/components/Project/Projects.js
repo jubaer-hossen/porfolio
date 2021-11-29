@@ -7,10 +7,12 @@ import img3 from '../../img/Untitled-d.jpg';
 const Projects = () => {
     return (
         <div className="container">
-            <h1 className="text-primary font4 mt-5">My Resent Projects</h1>
+            <div data-aos="fade-right">
+                <h1 className="text-primary font4 mt-5">My Resent Projects</h1>
+            </div>
             <br />
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+                <div class="col" data-aos="slide-right">
                     <div class="card h-100 shadow">
                         <img src={img1} class="card-img-top" alt="..." />
                         <div class="card-body">
@@ -46,7 +48,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="slide-up">
                     <div class="card h-100 shadow">
                         <img src={img2} class="card-img-top" alt="..." />
                         <div class="card-body">
@@ -79,7 +81,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="slide-left">
                     <div class="card h-100 shadow">
                         <img src={img3} class="card-img-top" alt="..." />
                         <div class="card-body">

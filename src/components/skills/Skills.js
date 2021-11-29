@@ -17,11 +17,13 @@ const Skills = () => {
     return (
         <div class="container px-4">
             <h1 className="text-primary text-center mt-5 mb-3 font4">
-                {' '}
                 My Skills
             </h1>
-            <div class="row row-cols-2 g-5 text-white text-center">
-                <div class="col-md-3">
+            <div
+                class="row row-cols-2 g-5 text-white text-center"
+                // data-aos="zoom-in-up"
+            >
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={html} alt="" />
                         <br />
@@ -29,7 +31,7 @@ const Skills = () => {
                         <h4>HTML</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={css} alt="" />
                         <br />
@@ -37,7 +39,7 @@ const Skills = () => {
                         <h4>CSS</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={bootstrap} alt="" />
                         <br />
@@ -45,7 +47,7 @@ const Skills = () => {
                         <h4>Bootstrap</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={tailwind} alt="" />
                         <br />
@@ -53,7 +55,7 @@ const Skills = () => {
                         <h4>Tailwind CSS</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={javascript} alt="" />
                         <br />
@@ -61,7 +63,7 @@ const Skills = () => {
                         <h4>JavaScript</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={reactjs} alt="" />
                         <br />
@@ -69,7 +71,7 @@ const Skills = () => {
                         <h4>React JS</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={mui} alt="" />
                         <br />
@@ -77,7 +79,7 @@ const Skills = () => {
                         <h4>Materia UI</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={firebase} alt="" />
                         <br />
@@ -85,7 +87,7 @@ const Skills = () => {
                         <h4>Firebase</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={github} alt="" />
                         <br />
@@ -93,7 +95,7 @@ const Skills = () => {
                         <h4>gitHub</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={nodejs} alt="" />
                         <br />
@@ -101,7 +103,7 @@ const Skills = () => {
                         <h4>Node Js</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={expressjs} alt="" />
                         <br />
@@ -109,7 +111,7 @@ const Skills = () => {
                         <h4>Express JS</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-out-down">
                     <div class="py-4  img-tn rounded  border bg-dark">
                         <img className="img-wd w-50" src={mongodb} alt="" />
                         <br />

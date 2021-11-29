@@ -50,7 +50,7 @@ const NavBar = () => {
                                 <Link
                                     to="#skills"
                                     class="nav-link active"
-                                    aria-current="page"
+                                    // aria-current="page"
                                 >
                                     Skills
                                 </Link>

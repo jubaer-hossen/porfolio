@@ -1,14 +1,17 @@
 import React from 'react';
+import './About.css';
 // import img1 from '../../img/Untitled-2.jpg';
 import img2 from '../../img/IMG_20191209_142644.jpg';
 
 const About = () => {
     return (
         <div id="about" className="overflow-hidden h-bg container my-5">
-            <h1 className="text-center font4">About Me</h1>
+            <h1 className="text-center font4" data-aos="fade-down">
+                About Me
+            </h1>
             <br />
             <div className="row d-md-flex align-items-center text-start">
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-right">
                     <h1>
                         I am{' '}
                         <span className="text-primary">Md Jubaer Hossen</span>
@@ -31,7 +34,11 @@ const About = () => {
                         </button>
                     </a>
                 </div>
-                <div className="col-md-6">
+                <div
+                    className="col-md-6"
+                    data-aos="fade-left"
+                    // data-aos-delay="200"
+                >
                     <img className="img-fluid" src={img2} alt="" />
                 </div>
             </div>
