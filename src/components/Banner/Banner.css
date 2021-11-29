@@ -1,0 +1,16 @@
+.bg-img {
+    background-image: url(../../img/Untitled-3.jpg);
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    width: 100%;
+    background-position: top;
+    background-size: 100vmax;
+    background-attachment: fixed;
+}
+.font-size {
+    font-size: 5rem;
+}
+
+.h-bg {
+    min-height: 100vh;
+}
