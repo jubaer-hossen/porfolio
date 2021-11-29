@@ -31,7 +31,7 @@ const Projects = () => {
                                 target="_blank"
                                 href="https://dream-camera-9e773.web.app/"
                             >
-                                <button className="btn btn-primary px-5">
+                                <button className="btn btn-primary px-5 fw-bold">
                                     Live site
                                 </button>
                             </a>
@@ -57,7 +57,7 @@ const Projects = () => {
                                 target="_blank"
                                 href="https://brave-austin-2ac4e3.netlify.app/"
                             >
-                                <button className="btn btn-primary px-5">
+                                <button className="btn btn-primary px-5 fw-bold">
                                     Live site
                                 </button>
                             </a>
@@ -85,7 +85,7 @@ const Projects = () => {
                                 target="_blank"
                                 href="https://upbeat-kare-f8305b.netlify.app/"
                             >
-                                <button className="btn btn-primary px-5">
+                                <button className="btn btn-primary px-5 fw-bold">
                                     Live site
                                 </button>
                             </a>
