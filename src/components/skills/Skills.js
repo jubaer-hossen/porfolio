@@ -15,7 +15,7 @@ import firebase from '../../img/Icon/firebase.bff5748e.png';
 
 const Skills = () => {
     return (
-        <div class="container px-4">
+        <div class="container px-4 overflow-hidden">
             <h1 className="text-primary text-center mt-5 mb-3 font4">
                 My Skills
             </h1>
