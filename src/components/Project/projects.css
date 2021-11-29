@@ -1,0 +1,21 @@
+.card {
+    overflow: hidden;
+    transition: all 1s;
+}
+.card img {
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.card:hover {
+    /* color: blue; */
+    border-color: rgb(255, 0, 0);
+    border: 3px solid red;
+    filter: invert(1);
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 0s;
+}

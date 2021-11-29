@@ -1,4 +1,5 @@
 import React from 'react';
+import './projects.css';
 import img1 from '../../img/Untitled-a.jpg';
 import img2 from '../../img/Untitled-s.jpg';
 import img3 from '../../img/Untitled-d.jpg';
@@ -28,12 +29,19 @@ const Projects = () => {
                         </div>
                         <div className="mb-4">
                             <a
+                                className="btn btn-primary px-5 mb-2 fw-bold"
                                 target="_blank"
                                 href="https://dream-camera-9e773.web.app/"
                             >
-                                <button className="btn btn-primary px-5 fw-bold">
-                                    Live site
-                                </button>
+                                Live site
+                            </a>
+                            <br />
+                            <a
+                                className="btn btn-primary px-3 fw-bold"
+                                target="_blank"
+                                href="https://github.com/jubaer-hossen/dream-camera"
+                            >
+                                <i class="fab fa-github"></i> GitHub Code Link
                             </a>
                         </div>
                     </div>
@@ -54,12 +62,19 @@ const Projects = () => {
                         </div>
                         <div className="mb-4">
                             <a
+                                className="btn btn-primary px-5 mb-2 fw-bold"
                                 target="_blank"
                                 href="https://brave-austin-2ac4e3.netlify.app/"
                             >
-                                <button className="btn btn-primary px-5 fw-bold">
-                                    Live site
-                                </button>
+                                Live site
+                            </a>
+                            <br />
+                            <a
+                                className="btn btn-primary px-3 fw-bold"
+                                target="_blank"
+                                href="https://github.com/jubaer-hossen/Local-Courier"
+                            >
+                                <i class="fab fa-github"></i> GitHub Code Link
                             </a>
                         </div>
                     </div>
@@ -82,12 +97,19 @@ const Projects = () => {
                         </div>
                         <div className="mb-4">
                             <a
+                                className="btn btn-primary px-5 fw-bold mb-2"
                                 target="_blank"
                                 href="https://upbeat-kare-f8305b.netlify.app/"
                             >
-                                <button className="btn btn-primary px-5 fw-bold">
-                                    Live site
-                                </button>
+                                Live site
+                            </a>
+                            <br />
+                            <a
+                                className="btn btn-primary px-3 fw-bold"
+                                target="_blank"
+                                href="https://github.com/jubaer-hossen/local-pharmacy"
+                            >
+                                <i class="fab fa-github"></i> GitHub Code Link
                             </a>
                         </div>
                     </div>

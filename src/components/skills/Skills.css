@@ -13,7 +13,7 @@
     transition-delay: 0s;
 }
 .img-tn:hover {
-    transform: rotateY(360deg);
+    /* transform: rotateY(360deg); */
     transform: scale(1.2);
     transition: transform 0.5s ease-in-out;
     transition-delay: 0s;
