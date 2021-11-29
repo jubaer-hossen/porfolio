@@ -1,0 +1,28 @@
+.img-tn {
+    overflow: hidden;
+}
+
+.img-tn img:hover {
+    transform: rotateY(360deg);
+    transition: transform 0.75s ease-in-out;
+    transition-delay: 0s;
+}
+.img-tn:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 0s;
+}
+/* .img-tn: {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 0s;
+} */
+
+/* .zoom img {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto 0 auto;
+} */
+.img-wd {
+    width: 6rem;
+}
