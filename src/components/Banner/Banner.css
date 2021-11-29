@@ -33,3 +33,19 @@
 .font-color {
     color: rgb(255, 31, 87);
 }
+
+.type-text {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s steps(11) infinite alternate;
+    border-right: solid 2px black;
+}
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 11ch;
+    }
+}
