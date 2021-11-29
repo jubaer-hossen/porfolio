@@ -1,16 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <Link to="#home" class="navbar-brand">
+        <div className="fixed-top">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="container-fluid">
+                    {/* <a href="#home" className="navbar-brand">
                         Jubaer Hossen
-                    </Link>
+                    </a> */}
+                    <a className="navbar-brand" href="#home">
+                        Jubaer Hossen
+                    </a>
                     <button
-                        class="navbar-toggler"
+                        className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
@@ -18,60 +21,60 @@ const NavBar = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <div
-                        class="collapse navbar-collapse"
+                        className="collapse navbar-collapse"
                         id="navbarSupportedContent"
                     >
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item"></li>
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item"></li>
                         </ul>
-                        <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <Link
-                                    to="#home"
-                                    class="nav-link active"
+                        <ul className="navbar-nav me-2 mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a
+                                    href="#home"
+                                    className="nav-a active nav-link"
                                     aria-current="page"
                                 >
                                     Home
-                                </Link>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <Link
-                                    to="#projects"
-                                    class="nav-link active"
+                            <li className="nav-item">
+                                <a
+                                    href="#project"
+                                    className="nav-a active nav-link"
                                     aria-current="page"
                                 >
                                     Projects
-                                </Link>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <Link
-                                    to="#skills"
-                                    class="nav-link active"
+                            <li className="nav-item">
+                                <a
+                                    href="#skills"
+                                    className="nav-a active nav-link"
                                     // aria-current="page"
                                 >
                                     Skills
-                                </Link>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <Link
-                                    to="#about"
-                                    class="nav-link active"
+                            <li className="nav-item">
+                                <a
+                                    href="#about"
+                                    className="nav-a active nav-link"
                                     aria-current="page"
                                 >
                                     About
-                                </Link>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <Link
-                                    to="#contact"
-                                    class="nav-link active"
+                            <li className="nav-item">
+                                <a
+                                    href="#contact"
+                                    className="nav-a active nav-link"
                                     aria-current="page"
                                 >
                                     Contact
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>

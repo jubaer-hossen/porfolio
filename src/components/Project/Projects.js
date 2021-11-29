@@ -6,7 +6,7 @@ import img3 from '../../img/Untitled-d.jpg';
 
 const Projects = () => {
     return (
-        <div className="container">
+        <div id="project" className="container">
             <div data-aos="fade-right">
                 <h1 className="text-primary font4 mt-5">My Resent Projects</h1>
             </div>
@@ -33,6 +33,7 @@ const Projects = () => {
                             <a
                                 className="btn btn-primary px-5 mb-2 fw-bold"
                                 target="_blank"
+                                rel="noreferrer"
                                 href="https://dream-camera-9e773.web.app/"
                             >
                                 Live site
@@ -41,6 +42,7 @@ const Projects = () => {
                             <a
                                 className="btn btn-primary px-3 fw-bold"
                                 target="_blank"
+                                rel="noreferrer"
                                 href="https://github.com/jubaer-hossen/dream-camera"
                             >
                                 <i class="fab fa-github"></i> GitHub Code Link
@@ -66,6 +68,7 @@ const Projects = () => {
                             <a
                                 className="btn btn-primary px-5 mb-2 fw-bold"
                                 target="_blank"
+                                rel="noreferrer"
                                 href="https://brave-austin-2ac4e3.netlify.app/"
                             >
                                 Live site
@@ -74,6 +77,7 @@ const Projects = () => {
                             <a
                                 className="btn btn-primary px-3 fw-bold"
                                 target="_blank"
+                                rel="noreferrer"
                                 href="https://github.com/jubaer-hossen/Local-Courier"
                             >
                                 <i class="fab fa-github"></i> GitHub Code Link
@@ -101,6 +105,7 @@ const Projects = () => {
                             <a
                                 className="btn btn-primary px-5 fw-bold mb-2"
                                 target="_blank"
+                                rel="noreferrer"
                                 href="https://upbeat-kare-f8305b.netlify.app/"
                             >
                                 Live site
@@ -109,6 +114,7 @@ const Projects = () => {
                             <a
                                 className="btn btn-primary px-3 fw-bold"
                                 target="_blank"
+                                rel="noreferrer"
                                 href="https://github.com/jubaer-hossen/local-pharmacy"
                             >
                                 <i class="fab fa-github"></i> GitHub Code Link
