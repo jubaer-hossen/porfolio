@@ -33,15 +33,15 @@ const Contact = () => {
             );
     };
     return (
-        <div id="contact" className="c">
-            <div className="c-bg"></div>
+        <div id="contact" className="c my-5">
+            <h1 className="font4 text-center font-color">Contact Me</h1>
             <div className="c-wrapper">
                 <div className="c-left">
                     <h1 className="c-title">Let's discuss your project</h1>
-                    <div className="c-info">
+                    <div className="c-info fw-bold font3">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon" />
-                            01724751**8
+                            +880-17247-51**8
                         </div>
                         <div className="c-info-item">
                             <img className="c-icon" src={Email} alt="" />
@@ -54,8 +54,8 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="c-right">
-                    <p className="c-desc">
+                <div className="c-right font2">
+                    <p className="c-desc fw-bold font3">
                         <b>What’s your story?</b> Get in touch. Always available
                         for freelancing if the right project comes along. me.
                     </p>
@@ -86,7 +86,9 @@ const Contact = () => {
                             name="message"
                             required
                         />
-                        <button className="btn btn-success">Submit</button>
+                        <button className="btn btn-success font3">
+                            Submit
+                        </button>
                         <br />
 
                         {done === true && 'Thank you...'}

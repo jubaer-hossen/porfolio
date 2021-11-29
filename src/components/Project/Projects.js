@@ -5,8 +5,8 @@ import img3 from '../../img/Untitled-d.jpg';
 
 const Projects = () => {
     return (
-        <div className="my-5 container">
-            <h1 className="text-primary">My Resent Projects</h1>
+        <div className="container">
+            <h1 className="text-primary font4 mt-5">My Resent Projects</h1>
             <br />
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">

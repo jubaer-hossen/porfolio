@@ -6,18 +6,16 @@ const Banner = () => {
         <div id="banner" className="">
             <div className="overflow-hidden">
                 <div className="row bg-img d-flex text-white align-items-center justify-content-start">
-                    <div className="col-7 text-start ps-5">
-                        <h1 className="font-size">MD Jubaer Hossen</h1>
-                        <h3>Web-developer</h3>
+                    <div className="col-7 text-start ps-md-5 ms-md-5">
+                        <h1 className="font-size font4">MD Jubaer Hossen</h1>
+                        <h2 className="font2">Web-developer</h2>
                         <a
                             target="_blank"
-                            class="nav-link active"
-                            aria-current="page"
+                            className="btn btn-primary font3"
+                            // aria-current="page"
                             href="https://drive.google.com/u/0/uc?id=1xOgKe7tN1m_CK9HVFhD90cNorp-IhNly&export=download"
                         >
-                            <button className="btn btn-primary">
-                                Download resume
-                            </button>
+                            Download resume
                         </a>
                     </div>
                 </div>

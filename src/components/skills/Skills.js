@@ -16,7 +16,10 @@ import firebase from '../../img/Icon/firebase.bff5748e.png';
 const Skills = () => {
     return (
         <div class="container px-4">
-            <h1 className="text-primary text-center my-5">Skills</h1>
+            <h1 className="text-primary text-center mt-5 mb-3 font4">
+                {' '}
+                My Skills
+            </h1>
             <div class="row row-cols-2 g-5 text-white text-center">
                 <div class="col-md-3">
                     <div class="py-4  img-tn rounded  border bg-dark">
