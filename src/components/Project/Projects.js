@@ -43,7 +43,7 @@ const Projects = () => {
                         <img src={img2} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Deshi Courier</h5>
-                            <p class="card-text text-start">
+                            <p class="card-text text-start p-3">
                                 <span class="fw-bold">
                                     This website outline:
                                 </span>{' '}
@@ -69,7 +69,7 @@ const Projects = () => {
                         <img src={img3} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Local Pharmacies</h5>
-                            <p class="card-text text-start">
+                            <p class="card-text text-start p-3">
                                 <span class="fw-bold">
                                     This website outline:
                                 </span>{' '}
