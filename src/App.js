@@ -6,6 +6,7 @@ import Camera from './components/Project/Camera/Camera';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Courier from './components/Project/Courier/Courier';
 import Pharmacies from './components/Project/Pharmacies/Pharmacies';
+import Vlogs from './components/Vlogs/Vlogs';
 function App() {
     return (
         <div>
@@ -22,6 +23,7 @@ function App() {
                         path="/pharmacies"
                         element={<Pharmacies></Pharmacies>}
                     ></Route>
+                    <Route path="/vlog" element={<Vlogs></Vlogs>}></Route>
                 </Routes>
                 <Footer></Footer>
             </BrowserRouter>

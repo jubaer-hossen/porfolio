@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { a } from 'react-router-dom';
 
-const NavBar = () => {
+const DetailsNavbar = () => {
     return (
         <div className="fixed-top">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -10,9 +9,9 @@ const NavBar = () => {
                     {/* <a href="#home" className="navbar-brand">
                         Jubaer Hossen
                     </a> */}
-                    <a className="navbar-brand" href="#home">
+                    <Link className="navbar-brand" to="#home">
                         Jubaer Hossen
-                    </a>
+                    </Link>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -33,40 +32,13 @@ const NavBar = () => {
                         </ul>
                         <ul className="navbar-nav me-2 mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a
-                                    href="#home"
+                                <Link
+                                    to="/home"
                                     className="nav-a active nav-link"
                                     aria-current="page"
                                 >
                                     Home
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    href="#project"
-                                    className="nav-a active nav-link"
-                                    aria-current="page"
-                                >
-                                    Projects
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    href="#skills"
-                                    className="nav-a active nav-link"
-                                    // aria-current="page"
-                                >
-                                    Skills
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    href="#about"
-                                    className="nav-a active nav-link"
-                                    aria-current="page"
-                                >
-                                    About
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <Link
@@ -77,15 +49,6 @@ const NavBar = () => {
                                     Vlogs
                                 </Link>
                             </li>
-                            <li className="nav-item">
-                                <a
-                                    href="#contact"
-                                    className="nav-a active nav-link"
-                                    aria-current="page"
-                                >
-                                    Contact
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -94,4 +57,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default DetailsNavbar;
