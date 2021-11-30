@@ -3,6 +3,7 @@ import './projects.css';
 import img1 from '../../img/Untitled-a.jpg';
 import img2 from '../../img/Untitled-s.jpg';
 import img3 from '../../img/Untitled-d.jpg';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -30,6 +31,12 @@ const Projects = () => {
                             </p>
                         </div>
                         <div className="mb-4">
+                            <Link to="/camera">
+                                <button className="btn btn-primary mb-2 fw-bold">
+                                    More Details
+                                </button>
+                            </Link>
+                            <br />
                             <a
                                 className="btn btn-primary px-5 mb-2 fw-bold"
                                 target="_blank"
@@ -65,6 +72,12 @@ const Projects = () => {
                             </p>
                         </div>
                         <div className="mb-4">
+                            <Link to="/courier">
+                                <button className="btn btn-primary mb-2 fw-bold">
+                                    More Details
+                                </button>
+                            </Link>
+                            <br />
                             <a
                                 className="btn btn-primary px-5 mb-2 fw-bold"
                                 target="_blank"
@@ -102,6 +115,12 @@ const Projects = () => {
                             </p>
                         </div>
                         <div className="mb-4">
+                            <Link to="/pharmacies">
+                                <button className="btn btn-primary mb-2 fw-bold">
+                                    More Details
+                                </button>
+                            </Link>
+                            <br />
                             <a
                                 className="btn btn-primary px-5 fw-bold mb-2"
                                 target="_blank"
