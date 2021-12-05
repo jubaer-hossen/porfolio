@@ -7,7 +7,7 @@ const Banner = () => {
         <div id="home" className="overflow-hidden">
             <div className="overflow-hidden">
                 <div className="row bg-img d-flex text-white align-items-center justify-content-start">
-                    <div className="col-7 text-start ps-md-5 ms-md-5">
+                    <div className="col-md-7 text-start ps-md-5 ms-md-5 ms-4">
                         <h1 className="font-size font4">MD Jubaer Hossen</h1>
                         <h2 className="font2">
                             I'm a{' '}

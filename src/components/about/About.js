@@ -30,7 +30,7 @@ const About = () => {
                         rel="noreferrer"
                         href="https://www.linkedin.com/in/md-jubaer-hossen-854a84226/"
                     >
-                        <button className="btn btn-success px-5 fw-bold">
+                        <button className="btn btn-success px-5 fw-bold mb-5">
                             Hire Me
                         </button>
                     </a>

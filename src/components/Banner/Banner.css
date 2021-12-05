@@ -36,6 +36,12 @@
     color: rgb(255, 31, 87);
 }
 
+@media only screen and (max-width: 600px) {
+    .font-size {
+        font-size: 2em;
+    }
+}
+
 /* .type-text {
     width: 0ch;
     overflow: hidden;
