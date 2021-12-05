@@ -39,15 +39,15 @@ const Contact = () => {
                 <div className="c-left" data-aos="flip-right">
                     <h1 className="c-title">Let's discuss your project</h1>
                     <div className="c-info fw-bold font3">
-                        <div className="c-info-item">
+                        <div className="c-info-item" data-aos="slide-right">
                             <img src={Phone} alt="" className="c-icon" />
                             +880-17247-51**8
                         </div>
-                        <div className="c-info-item">
+                        <div className="c-info-item" data-aos="slide-right">
                             <img className="c-icon" src={Email} alt="" />
                             jubaerhossen***@gmail.com
                         </div>
-                        <div className="c-info-item">
+                        <div className="c-info-item" data-aos="slide-right">
                             <img className="c-icon" src={Address} alt="" />
                             Nachnapara, Pathorghata, Barguna, Barishal,
                             Bangladesh
@@ -55,10 +55,13 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="c-right font2" data-aos="flip-left">
-                    <p className="c-desc fw-bold font3">
-                        <b>What’s your story?</b> Get in touch. Always available
-                        for freelancing if the right project comes along. me.
-                    </p>
+                    <div data-aos="slide-left">
+                        <p className="c-desc fw-bold font3">
+                            <b>What’s your story? </b> Get in touch. Always
+                            available for freelancing if the right project comes
+                            along. me.
+                        </p>
+                    </div>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input
                             type="name"
@@ -86,9 +89,11 @@ const Contact = () => {
                             name="message"
                             required
                         />
-                        <button className="btn btn-success font3">
-                            Submit
-                        </button>
+                        <div data-aos="zoom-in-up">
+                            <button className="btn btn-success font3">
+                                Submit
+                            </button>
+                        </div>
                         <br />
 
                         {done === true && 'Thank you...'}

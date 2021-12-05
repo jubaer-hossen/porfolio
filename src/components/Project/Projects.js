@@ -30,7 +30,7 @@ const Projects = () => {
                                 order
                             </p>
                         </div>
-                        <div className="mb-4">
+                        <div className="mb-4" data-aos="slide-right">
                             <Link to="/camera">
                                 <button className="btn btn-primary mb-2 fw-bold">
                                     More Details
@@ -71,7 +71,7 @@ const Projects = () => {
                                 ● Fully functional and Mobile friendly UI.
                             </p>
                         </div>
-                        <div className="mb-4">
+                        <div className="mb-4" data-aos="slide-up">
                             <Link to="/courier">
                                 <button className="btn btn-primary mb-2 fw-bold">
                                     More Details
@@ -114,7 +114,7 @@ const Projects = () => {
                                 <br />● Fully functional and Mobile friendly UI.
                             </p>
                         </div>
-                        <div className="mb-4">
+                        <div className="mb-4" data-aos="slide-left">
                             <Link to="/pharmacies">
                                 <button className="btn btn-primary mb-2 fw-bold">
                                     More Details

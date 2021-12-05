@@ -12,10 +12,14 @@ const About = () => {
             <br />
             <div className="row d-md-flex align-items-center text-start">
                 <div className="col-md-6" data-aos="fade-right">
-                    <h1>
-                        I am{' '}
-                        <span className="text-primary">Md Jubaer Hossen</span>
-                    </h1>
+                    <div data-aos="zoom-in-down">
+                        <h1>
+                            I am{' '}
+                            <span className="text-primary">
+                                Md Jubaer Hossen
+                            </span>
+                        </h1>
+                    </div>
                     <p className="font3">
                         I’m a Front End Web developer who is passionate about
                         making error-free websites with 100% client
@@ -25,15 +29,17 @@ const About = () => {
                         maintaining excellent communication. Most of the time I
                         work with JavaScript ReactJS
                     </p>
-                    <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.linkedin.com/in/md-jubaer-hossen-854a84226/"
-                    >
-                        <button className="btn btn-success px-5 fw-bold mb-5">
-                            Hire Me
-                        </button>
-                    </a>
+                    <div data-aos="zoom-in-up">
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.linkedin.com/in/md-jubaer-hossen-854a84226/"
+                        >
+                            <button className="btn btn-success px-5 fw-bold mb-5">
+                                Hire Me
+                            </button>
+                        </a>
+                    </div>
                 </div>
                 <div
                     className="col-md-6"
