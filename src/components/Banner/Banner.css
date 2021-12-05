@@ -37,8 +37,36 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .bg-img {
+        /* background-image: url(../../img/me.jpg); */
+        background-image: linear-gradient(
+                rgba(0.45, 0.45, 0, 0),
+                rgba(0, 0, 0, 0.15)
+            ),
+            url(../../img/me.jpg);
+    }
+    .res-text {
+        padding-top: 110%;
+    }
     .font-size {
         font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .bg-img {
+        /* background-image: url(../../img/me.jpg); */
+        background-image: linear-gradient(
+                rgba(0.45, 0.45, 0, 0),
+                rgba(0, 0, 0, 0.15)
+            ),
+            url(../../img/me.jpg);
+    }
+    .res-text {
+        padding-top: 80%;
+    }
+    .font-size {
+        font-size: 4em;
     }
 }
 
